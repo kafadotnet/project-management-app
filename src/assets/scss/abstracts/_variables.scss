@@ -1,0 +1,38 @@
+// Colors
+$primary-color: #3C3C3C;
+$secondary-color: #00BF8F;
+$gray-light: #F5F5F5;
+$white: #F6F6F6;
+$accent-color-orange: #F89B2E;
+$accent-color-orange-dark: #DF8C29;
+$accent-color-green: #76B82A;
+$color-success-message: #76B82A;
+$color-error-message: crimson;
+
+// Typography
+$font-family-base: 'Montserrat', sans-serif;
+$font-size-base: 16px;
+$font-size-h1: 3rem;
+$font-size-h2: 2.5rem;
+$font-size-h3: 1.125rem;
+$line-height-base: 1.5;
+$line-height: 2;
+$font-weight-regular: 400;
+$font-weight-medium: 500;
+$font-weight-semi-bold: 600;
+$font-weight-bold: 700;
+
+// Spacing
+$spacer: 1rem;
+$spacer-sm: 0.5rem;
+$spacer-lg: 2rem;
+
+// Shadows
+$box-shadow-sm: rgba(0, 0, 0, 0.06);
+
+// Transitions
+$transition-duration: 0.3s;
+$transition-timing: ease-in-out;
+
+// Max-width
+$container-max-width: 1300px;

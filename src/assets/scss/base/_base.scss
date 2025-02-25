@@ -1,0 +1,19 @@
+@use '../abstracts/variables' as *;
+
+// Font
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+html, body {
+    color: $primary-color;
+    background-color: $gray-light;
+    font-family: $font-family-base, sans-serif;
+    font-weight: $font-weight-regular;
+    line-height: $line-height-base;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+}
