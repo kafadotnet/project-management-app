@@ -1,0 +1,32 @@
+@use '../abstracts/variables' as *;
+
+.footer {
+    background-color: $black-theme;
+    color: $accent-color-orange-dark;
+    padding: 4px;
+    
+    .container {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+
+        .logo {
+            font-weight: 600;
+            
+            .logo-text {
+                color: $white;
+                font-weight: $font-weight-semi-bold;
+
+                span {
+                    color: $accent-color-orange;
+                }
+            }
+        }
+
+        .copy-right {
+            font-weight: $font-weight-semi-bold;
+        }
+    }
+
+
+}

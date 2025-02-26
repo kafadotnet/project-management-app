@@ -1,11 +1,12 @@
 // Colors
-$primary-color: #3C3C3C;
-$secondary-color: #00BF8F;
-$gray-light: #F5F5F5;
+$black-theme: #242424;
 $white: #F6F6F6;
-$accent-color-orange: #F89B2E;
+$background-color: #F5F5F5;
+$primary-color: #3C3C3C;
+$text-muted-color: #3B3B3B;
+
+$accent-color-orange: #faac53;
 $accent-color-orange-dark: #DF8C29;
-$accent-color-green: #76B82A;
 $color-success-message: #76B82A;
 $color-error-message: crimson;
 
@@ -14,7 +15,7 @@ $font-family-base: 'Montserrat', sans-serif;
 $font-size-base: 16px;
 $font-size-h1: 3rem;
 $font-size-h2: 2.5rem;
-$font-size-h3: 1.125rem;
+$font-size-h3: 2rem;
 $line-height-base: 1.5;
 $line-height: 2;
 $font-weight-regular: 400;

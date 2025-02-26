@@ -4,3 +4,10 @@
 // Base
 @use "base/base" as *;
 
+// Components
+@use "components/header" as *;
+@use "components/footer" as *;
+
+// Pages
+@use "pages/createProject" as *;
+

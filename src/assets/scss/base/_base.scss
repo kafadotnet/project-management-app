@@ -5,15 +5,44 @@
 
 html, body {
     color: $primary-color;
-    background-color: $gray-light;
+    background-color: $background-color;
     font-family: $font-family-base, sans-serif;
+    font-size: $font-size-base;
     font-weight: $font-weight-regular;
+    font-style: normal;
     line-height: $line-height-base;
     margin: 0;
     padding: 0;
+    scroll-behavior: smooth;
     box-sizing: border-box;
 }
 
 a {
     text-decoration: none;
+}
+
+.wrapper {
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+    height: 100dvh;
+}
+
+.container {
+    width: 100%;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    margin-left: auto;
+    margin-right: auto;
+
+    @media (width >= 768px) {
+        width: 720px;
+    }
+
+    @media (width >= 1400px) {
+        width: 1320px;
+    }
+
+    @media (width >= 1920px) {
+        width: 1800px;
+    }
 }
