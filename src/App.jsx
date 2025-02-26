@@ -1,24 +1,30 @@
 import "./mainmin.css";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Projects from "./pages/Projects";
-import CreateProjects from "./pages/CreateProject";
-import PageNotFound from "./pages/PageNotFound";
 import CreateProject from "./pages/CreateProject";
+import PageNotFound from "./pages/PageNotFound";
+import Header from "./components/Header";
+import Footer from "./components/Footer";
 
 function App() {
-
   return (
     <>
       <BrowserRouter>
-        <Routes>
-          <Route path="/" element={<CreateProject />} />
-          <Route path="/projects" element={<Projects />} />
-          <Route path="/projects/create" element={<CreateProjects />} />
-          <Route path="*" element={<PageNotFound />} />
-        </Routes>
+        <div className="wrapper">
+          <Header/>
+          <main>
+            <Routes>
+              <Route path="/" element={<CreateProject />} />
+              <Route path="/projects" element={<Projects />} />
+              <Route path="/projects/create" element={<CreateProject />} />
+              <Route path="*" element={<PageNotFound />} />
+            </Routes>
+          </main>
+          <Footer/>
+        </div>
       </BrowserRouter>
     </>
-  )
+  );
 }
 
 export default App;
