@@ -5,6 +5,7 @@ import CreateProject from "./pages/CreateProject";
 import PageNotFound from "./pages/PageNotFound";
 import Header from "./components/Header";
 import Footer from "./components/Footer";
+import Dashboard from "./pages/Dashboard";
 
 function App() {
   return (
@@ -14,7 +15,7 @@ function App() {
           <Header/>
           <main>
             <Routes>
-              <Route path="/" element={<CreateProject />} />
+              <Route path="/" element={<Dashboard />} />
               <Route path="/projects" element={<Projects />} />
               <Route path="/projects/create" element={<CreateProject />} />
               <Route path="*" element={<PageNotFound />} />
