@@ -1,8 +1,11 @@
+import CreateProjectForm from "../components/CreateProjectForm";
 
 const CreateProject = () => {
   return (
-    <h3>Create Project</h3>
-  )
-}
+    <>
+      <CreateProjectForm />
+    </>
+  );
+};
 
 export default CreateProject;

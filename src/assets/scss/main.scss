@@ -7,7 +7,10 @@
 // Components
 @use "components/header" as *;
 @use "components/footer" as *;
+@use "components/createProjectForm" as *;
 
 // Pages
 @use "pages/createProject" as *;
+@use "pages/projects" as *;
+@use "pages/pageNotFound" as *;
 

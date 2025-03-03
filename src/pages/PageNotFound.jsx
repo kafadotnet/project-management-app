@@ -1,7 +1,11 @@
 
 const PageNotFound = () => {
   return (
-    <h3>PageNotFound</h3>
+    <section>
+      <div className="container">
+      <h3>404 - Page Not Found!</h3>
+      </div>
+    </section>
   )
 }
 

@@ -1,7 +1,10 @@
+import ProjectList from "../components/ProjectList";
 
 const Projects = () => {
   return (
-    <h3>Projects</h3>
+    <>
+      <ProjectList />
+    </>
   )
 }
 
